@@ -33,7 +33,7 @@ module ColorContrast
     g = rgb[1]
     b = rgb[2]
 
-    yiq = ((r * 299) + (g * 587) + (b * 114) / 1000)
+    yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000
     yiq
   end
 end
