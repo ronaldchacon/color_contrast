@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ronald.chacon87@gmail.com"]
 
   spec.summary       = %q{Calculate contrasting color}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ronaldchacon/color_contrast"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
